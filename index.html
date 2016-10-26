@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myFirstApp">
   <head>
     <meta charset="utf-8">
-    <title>Hello coursera</title>
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>My first AngularJs Application</title>
   </head>
   <body>
-    <h1>Hello Coursera students! I am thrilled about this course</h1>
+    <h1>My first AngularJs Application</h1>
+    //this piece of view is bound to app.js controller
+    <div ng-controller="MyFirstController">
+    </div>
   </body>
 </html>
